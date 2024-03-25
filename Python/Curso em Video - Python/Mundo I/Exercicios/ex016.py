@@ -2,6 +2,7 @@
 #Crie um programa que leia um numero Real qualquer pelo teclado e 
 #mostre na tela sua proporção inteira.
 
+#METODO 1
 import math
 
 num = float(input ('Digite um número: '))
