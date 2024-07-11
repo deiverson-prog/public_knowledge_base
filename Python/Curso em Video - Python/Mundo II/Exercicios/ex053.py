@@ -19,6 +19,18 @@ junto = ''.join(palavras) #junta palavras com o critério em ' '.
 inverso = ''
 for letra in range (len(junto) -1, -1, -1):   #len - usado para a ultima letra
     inverso += junto[letra]
+print('O inverso de {} é {}.'.format(junto, inverso))    
+if inverso == junto:
+    print('Temos um Palindromo')
+else:
+    print('A frase digitada NÃO É um Palindromo')
+
+#METODO 2  - fatiamento (sem for)
+
+frase = str(input('Digite uma frase:')).strip().upper() 
+palavras = frase.split()
+junto = ''.join(palavras)
+inverso = junto[::-1]
 if inverso == junto:
     print('Temos um Palindromo')
 else:
