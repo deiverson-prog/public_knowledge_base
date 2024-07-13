@@ -13,7 +13,7 @@
 
 #LAÇO COM VARIAVEL DE CONTROLE
 
-#LAÇO_C_NO_INVERVALOR(1.10)   -> NO "C" POSSO ESCOLHER O QUE QUISER
+#LAÇO_C_NO_INVERVALO(1.10)   -> NO "C" POSSO ESCOLHER O QUE QUISER
     #PASSO     <- IDENTADO
 #PEGAR
 
@@ -37,6 +37,12 @@
 #   pula
 #passo
 #pega
+
+'''for = para'''
+
+'''para ''cada variavel'' no critério ou em outra variavel:'''
+''' for in 'variavel' in variaveis:'''
+''' for in 'variavel' in range:(intervalos)'''
 
 #PRATICANDO
 for c in range(0,6):   #---> não considera o ultimo digito (para no último)
