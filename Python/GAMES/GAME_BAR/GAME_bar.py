@@ -81,8 +81,8 @@ while loop:
         ball.x += ball_dir_x
         ball.y += ball_dir_y
 
-        #player2.y = ball.y - 75
-        player2.y += player2_speed
+        player2.y = ball.y - 75
+        #player2.y += player2_speed
 
         if player2.y <= 0:
             player2.y = 0

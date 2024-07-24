@@ -1,4 +1,4 @@
-''' FUNÇÕES
+''' FUNÇÕES - part 1
 
 FUNÇÃO = ROTINA
 
