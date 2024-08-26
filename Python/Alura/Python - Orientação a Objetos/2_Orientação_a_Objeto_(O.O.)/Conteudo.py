@@ -28,11 +28,4 @@ o @ é um decorator (decorador) do Python.
 Aprofundando em propriedades
 
 
-
-
-
-
-
-
-
 '''
